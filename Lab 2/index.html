@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <hr>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <img width="300" src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="My Photo">
+        <p>Hello! My name is John Doe. I am learning web development and this is my first portfolio website.</p>
+    </section>
+
+    <hr>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>My Skills</h2>
+        <table>
+            <tr>
+                <th>Skill</th>
+                <th>Level</th>
+            </tr>
+            <tr>
+                <td>HTML</td>
+                <td>Beginner</td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td>Beginner</td>
+            </tr>
+            <tr>
+                <td>JavaScript</td>
+                <td>Learning</td>
+            </tr>
+        </table>
+    </section>
+
+    <hr>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="card">
+            <h3>Project 1</h3>
+            <p>A simple HTML & CSS webpage.</p>
+        </div>
+        <div class="card">
+            <h3>Project 2</h3>
+            <p>Another awesome mini project.</p>
+        </div>
+    </section>
+
+    <hr>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+
+        <form>
+
+
+            <table>
+                <tr>
+                    <td><label for="name">Name:</label></td>
+                    <td><input type="text" id="name" placeholder="Enter your name" required></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email:</label></td>
+                    <td><input type="email" id="email" placeholder="Enter your email" required></td>
+                </tr>
+                <tr>
+                    <td><label for="message">Message:</label></td>
+                    <td><textarea id="message" placeholder="Write your message" required></textarea></td>
+                </tr>
+
+
+                <tr>
+                    <td colspan="2">
+
+                        <button width type="submit">Send</button>
+                    </td>
+                </tr>
+
+
+            </table>
+
+        </form>
+
+
+
+    </section>
+
+    <!-- Back to Top Button -->
+    <a href="#about" id="backToTop">⬆ Back to Top</a>
+
+
+    <footer>
+        <p>© 2025 John Doe. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
